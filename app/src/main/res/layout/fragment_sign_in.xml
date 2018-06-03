@@ -1,14 +1,70 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SignInFragment">
+    android:background="@drawable/gradient"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".OnBoardingFragment">
 
-    <!-- TODO: Update blank fragment layout -->
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/brain_gmae" />
+
     <TextView
+        android:id="@+id/welcome_text"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:text="Welcome"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        android:textStyle="bold" />
 
-</FrameLayout>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/edit_text_background"
+        android:gravity="center_vertical|left"
+        android:hint="Enter email id"
+        android:inputType="textEmailAddress"
+        android:padding="8dp"
+        android:textColorHint="#80ffffff"
+
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/edit_text_background"
+        android:gravity="center_vertical|left"
+        android:hint="Enter password"
+        android:inputType="textPassword"
+        android:padding="8dp"
+        android:textColorHint="#80ffffff"
+
+
+        />
+
+    <Button
+        android:id="@+id/signUp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/circle_button"
+        android:text="SignUp"
+        android:textColor="@color/white" />
+</LinearLayout>
