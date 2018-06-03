@@ -8,7 +8,14 @@
         android:id="@+id/onBoardingFragment"
         android:name="troops.com.android_navigation.OnBoardingFragment"
         android:label="fragment_on_boarding"
-        tools:layout="@layout/fragment_on_boarding" />
+        tools:layout="@layout/fragment_on_boarding" >
+        <action
+            android:id="@+id/action_onBoardingFragment_to_signInFragment"
+            app:destination="@id/signInFragment" />
+        <action
+            android:id="@+id/action_onBoardingFragment_to_signUpFragment"
+            app:destination="@id/signUpFragment" />
+    </fragment>
     <fragment
         android:id="@+id/signInFragment"
         android:name="troops.com.android_navigation.SignInFragment"
