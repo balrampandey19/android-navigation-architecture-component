@@ -20,5 +20,9 @@ class OnBoardingFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
         view.findViewById<Button>(R.id.signIn)?.setOnClickListener(
                 Navigation.createNavigateOnClickListener(R.id.signInFragment, null))
+
+
+        view.findViewById<Button>(R.id.signUp)?.setOnClickListener(
+                Navigation.createNavigateOnClickListener(R.id.signUpFragment, null))
     }
 }
