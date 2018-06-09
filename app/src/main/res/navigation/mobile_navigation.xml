@@ -32,7 +32,7 @@
         android:label="fragment_home"
         tools:layout="@layout/fragment_home">
         <argument
-            android:name="step"
+            android:name="data"
             android:defaultValue=" "
             app:type="string" />
     </fragment>

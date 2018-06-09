@@ -22,6 +22,16 @@ class HomeFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         val nameTextx = view.findViewById<TextView>(R.id.welcome_text_name)
-        val welcomeText = view.findViewById<TextView>(R.id.welcome_text)11`
-     }
+        val welcomeText = view.findViewById<TextView>(R.id.welcome_text)
+        //Normal way to get data
+
+//        val username = arguments?.getString("data")
+
+        val data = arguments?.let {
+            val safeArgs = HomeFragmentArgs.fromBundle(it)
+            safeArgs.data
+        }
+        nameTextx.text = data;
+
+    }
 }
