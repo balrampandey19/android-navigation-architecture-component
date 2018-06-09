@@ -33,7 +33,6 @@
         tools:layout="@layout/fragment_home">
         <argument
             android:name="data"
-            android:defaultValue=" "
             app:type="string" />
     </fragment>
     <fragment

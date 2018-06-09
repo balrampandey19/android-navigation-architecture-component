@@ -27,11 +27,11 @@ class HomeFragment : Fragment() {
 
 //        val username = arguments?.getString("data")
 
-        val data = arguments?.let {
+        val username = arguments?.let {
             val safeArgs = HomeFragmentArgs.fromBundle(it)
             safeArgs.data
         }
-        nameTextx.text = data;
+        nameTextx.text = username;
 
     }
 }

@@ -1,17 +1,14 @@
 package troops.com.android_navigation
 
-import android.content.Context
-import android.net.Uri
 import android.os.Bundle
 import android.support.v4.app.Fragment
-import android.support.v4.widget.DrawerLayout
-import android.support.v7.widget.Toolbar
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Button
 import android.widget.EditText
 import android.widget.TextView
-import kotlinx.android.synthetic.*
+import androidx.navigation.Navigation
 
 
 class SignInFragment : Fragment() {
@@ -28,9 +25,12 @@ class SignInFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         val tv = view.findViewById<TextView>(R.id.email)
-        val bundle = Bundle()
-        bundle.putString("data", tv.text.toString())
 
+        val bundle = Bundle()
+        bundle.putString("data", "DAA")
+        view.findViewById<Button>(R.id.signIn)?.setOnClickListener(
+                Navigation.createNavigateOnClickListener(R.id.homeFragment, bundle)
+        )
     }
 
 }
