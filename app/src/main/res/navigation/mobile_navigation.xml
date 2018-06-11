@@ -25,7 +25,11 @@
         android:id="@+id/signUpFragment"
         android:name="troops.com.android_navigation.SignUpFragment"
         android:label="fragment_sign_up"
-        tools:layout="@layout/fragment_sign_up" />
+        tools:layout="@layout/fragment_sign_up">
+        <action
+            android:id="@+id/next_action"
+            app:destination="@+id/homeFragment" />
+    </fragment>
     <fragment
         android:id="@+id/homeFragment"
         android:name="troops.com.android_navigation.HomeFragment"
