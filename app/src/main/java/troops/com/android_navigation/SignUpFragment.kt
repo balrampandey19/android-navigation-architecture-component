@@ -20,8 +20,10 @@ class SignUpFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
+        val bundle = Bundle()
+        bundle.putString("data", "Android Navigation")
         view.findViewById<Button>(R.id.signUp)?.setOnClickListener(
-                Navigation.createNavigateOnClickListener(R.id.next_action, null)
+                Navigation.createNavigateOnClickListener(R.id.next_action, bundle)
         )
 
     }
