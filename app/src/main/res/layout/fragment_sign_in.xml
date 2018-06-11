@@ -35,9 +35,10 @@
         android:layout_marginRight="30dp"
         android:background="@drawable/edit_text_background"
         android:gravity="center_vertical|left"
-        android:hint="Enter email id"
+        android:hint="User Name"
         android:inputType="textEmailAddress"
         android:padding="8dp"
+        android:textColor="@color/white"
         android:textColorHint="#80ffffff"
 
         />
@@ -53,6 +54,7 @@
         android:hint="Enter password"
         android:inputType="textPassword"
         android:padding="8dp"
+        android:textColor="@color/white"
         android:textColorHint="#80ffffff"
 
 

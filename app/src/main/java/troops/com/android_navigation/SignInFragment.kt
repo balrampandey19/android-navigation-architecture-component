@@ -26,11 +26,15 @@ class SignInFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
         val tv = view.findViewById<TextView>(R.id.email)
 
+
+        val button = view.findViewById<Button>(R.id.signIn)
+        val textData: String = tv.text.toString();
         val bundle = Bundle()
-        bundle.putString("data", "DAA")
-        view.findViewById<Button>(R.id.signIn)?.setOnClickListener(
-                Navigation.createNavigateOnClickListener(R.id.homeFragment, bundle)
-        )
+        bundle.putString("data", "Android Navigation")
+        button.setOnClickListener {
+            Navigation.createNavigateOnClickListener(R.id.homeFragment, bundle)
+        }
+
     }
 
 }
