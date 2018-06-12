@@ -1,4 +1,4 @@
-<img align="center" src='https://github.com/balrampandey19/android-navigation-architecture-component/blob/master/banner.png' width='400' height='200'/>
+<img align="center" src='https://github.com/balrampandey19/android-navigation-architecture-component/blob/master/banner.png' width='400' height='600'/>
 
 # Android Navigation Architecture Component
 
