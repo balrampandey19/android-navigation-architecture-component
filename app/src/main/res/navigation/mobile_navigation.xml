@@ -15,12 +15,16 @@
         <action
             android:id="@+id/action_onBoardingFragment_to_signUpFragment"
             app:destination="@id/signUpFragment" />
+        <deepLink app:uri="www.example.com/onboarding" />
     </fragment>
     <fragment
         android:id="@+id/signInFragment"
         android:name="troops.com.android_navigation.SignInFragment"
         android:label="fragment_sign_in"
-        tools:layout="@layout/fragment_sign_in" />
+        tools:layout="@layout/fragment_sign_in">
+        <deepLink app:uri="www.example.com/signin" />
+
+    </fragment>
     <fragment
         android:id="@+id/signUpFragment"
         android:name="troops.com.android_navigation.SignUpFragment"
@@ -29,6 +33,8 @@
         <action
             android:id="@+id/next_action"
             app:destination="@+id/homeFragment" />
+        <deepLink app:uri="www.example.com/signup" />
+
     </fragment>
     <fragment
         android:id="@+id/homeFragment"
@@ -38,10 +44,14 @@
         <argument
             android:name="data"
             app:type="string" />
+        <deepLink app:uri="www.example.com/home" />
+
     </fragment>
     <fragment
         android:id="@+id/aboutFragment"
         android:name="troops.com.android_navigation.AboutFragment"
         android:label="fragment_about"
-        tools:layout="@layout/fragment_about" />
+        tools:layout="@layout/fragment_about">
+        <deepLink app:uri="www.example.com/about" />
+    </fragment>
 </navigation>

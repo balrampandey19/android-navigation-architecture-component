@@ -4,7 +4,9 @@ import android.content.res.Resources
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
+import android.widget.Button
 import android.widget.Toast
+import androidx.navigation.Navigation
 import androidx.navigation.fragment.NavHostFragment
 
 class MainActivity : AppCompatActivity() {
@@ -27,5 +29,6 @@ class MainActivity : AppCompatActivity() {
                     Toast.LENGTH_SHORT).show()
             Log.d("NavigationActivity", "Navigated to $dest")
         }
+
     }
 }
