@@ -16,8 +16,42 @@ The Navigation Architecture Component helps you easily implement common, but com
 
 <b>1-</b> Install latest Android Studio 3.2 Canary 14 or above.
 
-<b>2-</b>  Add library dependencies for android navigation component.
+<b>2-</b>  Add navigation dependencies.
 
+Make sure you added google() project build.gradle
+
+```
+buildscript {
+
+    ext {
+        kotlinVersion = '1.2.41'
+    }
+    repositories {
+        google()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.2.0-alpha16'
+        classpath 'android.arch.navigation:navigation-safe-args-gradle-plugin:1.0.0-alpha01'
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
+
+ext {
+    navigationVersion = "1.0.0-alpha01"
+    constraintLayoutVersion = "1.1.0"
+}
+```
+
+and add library dependencies for android navigation component in app build.gradle.
 ```
   
   implementation 'android.arch.navigation:navigation-fragment:' + rootProject.navigationVersion
