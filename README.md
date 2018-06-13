@@ -59,4 +59,10 @@ and add library dependencies for android navigation component in app build.gradl
   implementation 'android.arch.navigation:navigation-ui:' + rootProject.navigationVersion
     
 ```
+ and add plugin in your app build.gradle.
+ 
+ ```
+ apply plugin: 'androidx.navigation.safeargs'
+ 
+```
 
