@@ -14,5 +14,15 @@ The Navigation Architecture Component helps you easily implement common, but com
 
 ## Setup
 
-1- Install latest Android Studio 3.2 Canary 14 or above.
+<b>1-</b> Install latest Android Studio 3.2 Canary 14 or above.
+
+<b>2-</b>  Add library dependencies for android navigation component.
+
+```
+  
+  implementation 'android.arch.navigation:navigation-fragment:' + rootProject.navigationVersion
+  
+  implementation 'android.arch.navigation:navigation-ui:' + rootProject.navigationVersion
+    
+```
 
