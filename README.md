@@ -11,3 +11,6 @@ The Navigation Architecture Component helps you easily implement common, but com
 * Navigation UI patterns like navigation drawers and bottom nav with little additional work
 * Type safety when passing information while navigating
 * Android Studio offers tooling for visualizing and editing the navigation flow of an app
+
+## Setup
+
