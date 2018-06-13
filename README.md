@@ -14,3 +14,5 @@ The Navigation Architecture Component helps you easily implement common, but com
 
 ## Setup
 
+1- Install latest Android Studio 3.2 Canary 14 or above.
+
