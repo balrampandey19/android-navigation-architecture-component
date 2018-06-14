@@ -82,6 +82,7 @@ The different places that you can navigate to from a destination are represented
 <b>1-</b>  create a package in res and set name "navigation"  ``` /res/navagation/mobile_navigation.xml ```
 
 <b>2- </b> Open ``` /res/navagation/mobile_navigation.xml ``` click on design tab. and add screens in navigation graph.
+
 <img align="center" src='https://github.com/balrampandey19/android-navigation-architecture-component/blob/master/addscreen.png' width='300' height='300'/>
 
 
