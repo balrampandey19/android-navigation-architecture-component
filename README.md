@@ -77,3 +77,9 @@ The different places that you can navigate to from a destination are represented
 
 [Read more about navigation graph](https://codelabs.developers.google.com/codelabs/android-navigation/index.html?index=..%2F..%2Findex#2)
 
+## Navigation Graph to Navigate
+
+<b>1-</b>  create a package in res and set name "navigation"  ``` /res/navagation/mobile_navigation.xml ```
+
+<b>2- </b> 
+
