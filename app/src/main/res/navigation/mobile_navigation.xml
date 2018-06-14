@@ -23,6 +23,9 @@
         android:label="fragment_sign_in"
         tools:layout="@layout/fragment_sign_in">
         <deepLink app:uri="www.example.com/signin" />
+        <action
+            android:id="@+id/action_signInFragment_to_aboutFragment"
+            app:destination="@id/aboutFragment" />
 
     </fragment>
     <fragment
