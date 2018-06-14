@@ -85,4 +85,16 @@ The different places that you can navigate to from a destination are represented
 
 <img align="center" src='https://github.com/balrampandey19/android-navigation-architecture-component/blob/master/addscreen.png' width='300' height='300'/>
 
+Click on Text tab. and you can see screen added in XML.
+
+```    <fragment
+        android:id="@+id/aboutFragment"
+        android:name="troops.com.android_navigation.AboutFragment"
+        android:label="fragment_about"
+        tools:layout="@layout/fragment_about">
+        <deepLink app:uri="www.example.com/about" />
+    </fragment>
+    
+    ```
+
 
