@@ -96,5 +96,13 @@ Click on Text tab, screen added in XML.
  </fragment>
  
  ```
+ 
+ <b>3- </b>  Open your kotilin class and add this code on your button click.
+ 
+ ```
+   view.findViewById<Button>(R.id.signIn)?.setOnClickListener(
+                Navigation.createNavigateOnClickListener(R.id.aboutFragment, null))
+  
+  ```
 
 
