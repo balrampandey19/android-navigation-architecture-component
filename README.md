@@ -73,4 +73,4 @@ Before going forward you need to know about most important componet of navigatio
 
 The different places that you can navigate to from a destination are represented visually in a navigation graph. This is a new resource type where you define all the possible paths a user could take through the app. Android Studio represents this visually for you using the new Navigation Editor.
 
-<img align="center" src='https://github.com/balrampandey19/android-navigation-architecture-component/blob/master/navigation.png' width='600' height='600'/>
+<img align="center" src='https://github.com/balrampandey19/android-navigation-architecture-component/blob/master/navigation.png' width='700' height='600'/>
