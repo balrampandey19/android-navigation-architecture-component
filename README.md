@@ -65,4 +65,4 @@ and add library dependencies for android navigation component in app build.gradl
  apply plugin: 'androidx.navigation.safeargs'
  
 ```
-
+## Using android navigation architecture component
