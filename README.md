@@ -72,3 +72,14 @@ Before going forward you need to know about most important componet of navigatio
 ### Navigation Graph
 
 The different places that you can navigate to from a destination are represented visually in a navigation graph. This is a new resource type where you define all the possible paths a user could take through the app. Android Studio represents this visually for you using the new Navigation Editor.
+
+<img align="center" src='https://github.com/balrampandey19/android-navigation-architecture-component/blob/master/navigation.png' width='800' height='500'/>
+
+[Read more about navigation graph](https://codelabs.developers.google.com/codelabs/android-navigation/index.html?index=..%2F..%2Findex#2)
+
+## Navigation Graph to Navigate
+
+<b>1-</b>  create a package in res and set name "navigation"  ``` /res/navagation/mobile_navigation.xml ```
+
+<b>2- </b> 
+
