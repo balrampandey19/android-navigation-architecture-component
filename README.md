@@ -67,7 +67,7 @@ and add library dependencies for android navigation component in app build.gradl
 ```
 ## Using android navigation architecture component
 
-Before going forward you need to know important about most important componet of navigation is <b>Navigatio Graph</b>.
+Before going forward you need to know about most important componet of navigation architecture that is <b>Navigatio Graph</b>.
 
 ### Navigation Graph
 
