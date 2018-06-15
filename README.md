@@ -109,3 +109,12 @@ Click on Text tab, screen added in XML.
 ## Navigate Using Actions
 
 <b>1- </b> Open ``` /res/navagation/mobile_navigation.xml ```
+
+<b>2- </b> Add action in onBoardingFragment.
+
+```
+ <action
+            android:id="@+id/action_onBoardingFragment_to_signInFragment"
+            app:destination="@id/signInFragment" />
+            
+```
