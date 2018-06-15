@@ -145,7 +145,7 @@ Newly genrated code looks like
 
 <b>1- </b> Open ``` /res/navagation/mobile_navigation.xml ```
 
-<b>2- </b> Add this code in data reciving fragement.
+<b>2- </b> Add this code in data receiving fragement.
 ```
  <argument
             android:name="data"
@@ -178,7 +178,7 @@ Newly genrated code looks like
         }
         
  ```
-  <b>4- </b> Now open your reciving data class and add this code.
+  <b>4- </b> Now open your receiving data class and add this code.
   
   ```
     val username = arguments?.let {
