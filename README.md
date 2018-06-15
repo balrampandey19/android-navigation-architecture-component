@@ -145,7 +145,7 @@ Newly genrated code looks like
 
 <b>1- </b> Open ``` /res/navagation/mobile_navigation.xml ```
 
-<b1- </b> Add this code in data reciving fragement.
+<b>2- </b> Add this code in data reciving fragement.
 ```
  <argument
             android:name="data"
@@ -167,4 +167,26 @@ Newly genrated code looks like
    </fragment>
    
  ```
+ 
+ <b>3- </b> Now open your sending data class and add this code.
+ 
+ ```
+  val bundle = Bundle()
+        bundle.putString("data", "Android Navigation")
+        button.setOnClickListener {
+            Navigation.createNavigateOnClickListener(R.id.homeFragment, bundle)
+        }
+        
+ ```
+  <b>4- </b> Now open your reciving data class and add this code.
+  
+  ```
+    val username = arguments?.let {
+            val safeArgs = HomeFragmentArgs.fromBundle(it)
+            safeArgs.data
+        }
+        nameTextx.text = username;
+        
+   ```
+
  
