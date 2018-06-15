@@ -232,3 +232,15 @@ and newly genrated code looks like.
   ```
               <nav-graph android:value="@navigation/mobile_navigation" />
 ```
+
+
+## Supporting Links
+
+https://codelabs.developers.google.com/codelabs/android-navigation/index.html?index=..%2F..%2Findex#10
+
+https://developer.android.com/topic/libraries/architecture/navigation/
+
+https://developer.android.com/topic/libraries/architecture/navigation/navigation-migrate
+
+https://developer.android.com/topic/libraries/architecture/navigation/navigation-migrate
+
