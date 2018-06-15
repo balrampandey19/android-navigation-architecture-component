@@ -114,7 +114,20 @@ Click on Text tab, screen added in XML.
 
 ```
  <action
+   android:id="@+id/action_onBoardingFragment_to_signInFragment"
+   app:destination="@id/signInFragment" />
+            
+```
+Newly genrated code look like 
+
+```
+   <fragment
+        android:id="@+id/onBoardingFragment"
+        android:name="troops.com.android_navigation.OnBoardingFragment"
+        android:label="fragment_on_boarding"
+        tools:layout="@layout/fragment_on_boarding">
+        <action
             android:id="@+id/action_onBoardingFragment_to_signInFragment"
             app:destination="@id/signInFragment" />
-            
+    </fragment>
 ```
