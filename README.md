@@ -140,3 +140,31 @@ Newly genrated code looks like
         )
    
 ```
+
+## Using type safe argument bundles for navigation
+
+<b>1- </b> Open ``` /res/navagation/mobile_navigation.xml ```
+
+<b1- </b> Add this code in data reciving fragement.
+```
+ <argument
+            android:name="data"
+            app:type="string" />
+  
+ ```
+ and newly code looks like below code.
+ 
+ ```
+ <fragment
+        android:id="@+id/homeFragment"
+        android:name="troops.com.android_navigation.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home">
+        <argument
+            android:name="data"
+            app:type="string" />
+   
+   </fragment>
+   
+ ```
+ 
