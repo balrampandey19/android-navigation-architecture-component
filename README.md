@@ -200,3 +200,35 @@ Navigation provides a NavDeepLinkBuilder class to construct a PendingIntent that
 
 ### Add a Deep Link
 
+<b>1- </b> Open ``` /res/navagation/mobile_navigation.xml ```
+
+<b>2- </b> Add deep link with URL in your destination screen.
+
+```
+        <deepLink app:uri="www.example.com/home" />
+
+```
+and newly genrated code looks like.
+
+```
+ <fragment
+        android:id="@+id/homeFragment"
+        android:name="troops.com.android_navigation.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home">
+        <argument
+            android:name="data"
+            app:type="string" />
+        <deepLink app:uri="www.example.com/home" />
+
+    </fragment>
+    
+  ```
+  
+  <b>3- </b> Open ```AndroidManifest```
+  
+  <b>4- </b> Add ```<nav-graph>```
+  
+  ```
+              <nav-graph android:value="@navigation/mobile_navigation" />
+```
