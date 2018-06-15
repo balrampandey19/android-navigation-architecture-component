@@ -89,10 +89,10 @@ Click on Text tab, screen added in XML.
 
 ```   
 <fragment
-   android:id="@+id/aboutFragment"
-   android:name="troops.com.android_navigation.AboutFragment"
-   android:label="fragment_about"
-   tools:layout="@layout/fragment_about">
+    android:id="@+id/onBoardingFragment"
+        android:name="troops.com.android_navigation.OnBoardingFragment"
+        android:label="fragment_on_boarding"
+        tools:layout="@layout/fragment_on_boarding">
  </fragment>
  
  ```
@@ -107,3 +107,5 @@ Click on Text tab, screen added in XML.
 
 
 ## Navigate Using Actions
+
+<b>1- </b> Open ``` /res/navagation/mobile_navigation.xml ```
