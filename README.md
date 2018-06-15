@@ -118,7 +118,7 @@ Click on Text tab, screen added in XML.
    app:destination="@id/signInFragment" />
             
 ```
-Newly genrated code look like 
+Newly genrated code looks like 
 
 ```
    <fragment
@@ -130,4 +130,13 @@ Newly genrated code look like
             android:id="@+id/action_onBoardingFragment_to_signInFragment"
             app:destination="@id/signInFragment" />
     </fragment>
+```
+
+<b> 3- </b> Now open koltlin class and add this code on button click.
+
+```
+   view.findViewById<Button>(R.id.signUp)?.setOnClickListener(
+                Navigation.createNavigateOnClickListener(R.id.next_action, null)
+        )
+   
 ```
