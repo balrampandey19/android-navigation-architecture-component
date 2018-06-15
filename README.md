@@ -106,3 +106,4 @@ Click on Text tab, screen added in XML.
   ```
 
 
+## Navigate Using Actions
