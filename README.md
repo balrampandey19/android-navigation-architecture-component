@@ -189,4 +189,14 @@ Newly genrated code looks like
         
    ```
 
- 
+## Deep Linking to a destination
+
+Deep Links and Navigation
+Navigation components also include deep link support. Deep links are a way to jump into the middle of your app's navigation, whether that's from an actual url link or a pending intent from a notification.
+
+One benefit of using the navigation library to handle deep links is that it ensures users start on the appropriate destination with the appropriate back stack from other entry points such as app widgets, notifications, or web links (covered in the next step).
+
+Navigation provides a NavDeepLinkBuilder class to construct a PendingIntent that will take the user to a specific destination.
+
+### Add a Deep Link
+
